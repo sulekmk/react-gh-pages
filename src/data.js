@@ -1,10 +1,26 @@
+import project1Image from './project-1.png';
+import project2Image from './project-2.gif';
+import project3Image from './project-3.gif';
+import project4Image from './project-4.gif';
+import project5Image from './project-5.png';
+import project6Image from './project-6.png';
+
+const projectImage = [];
+
+projectImage.push(project1Image);
+projectImage.push(project2Image);
+projectImage.push(project3Image);
+projectImage.push(project4Image);
+projectImage.push(project5Image);
+projectImage.push(project6Image);
+
 export const projects = [
   {
     title: "DAVID CHU'S CHINA BISTRO Restaurant",
     subtitle: "Restaurant Web Application",
     description:
       "In this assignment, The front page of our web app contains 3 clickable tiles: Menu, Specials, and Map. If you click on the Specials tile, you will be taken to a single category page where all the menu items that belong to the Specials menu category will be shown. Your task in this assignment is to alter this behavior such that when the user clicks on the Specials tile, the web app takes the user to a random single category menu page, listing menu items in the category, be it 'Lunch', 'Dinner', 'Sushi', etc. That way, any random category can become the Specials!",
-    image: "./project-1.png",
+    image: projectImage[0],
     link: "https://sulekmk.github.io/github.io-module5-solution/",
   },
   {
@@ -12,7 +28,7 @@ export const projects = [
     subtitle: "ARRCUS - CICD SYSTEM",
     description:
       "The CICD UI can be used for managing assets in an organization along with the users and groups of that organization. A user of this application can add multiple different types of assets and give or take away access to those assets at the group level. Examples of this as well as other use cases will be provided in this document. I have worked on topolody management module",
-    image: "./project-5.png",
+    image:projectImage[4],
     link: "https://cicd.sjc.arrcus.com",
   },
   {
@@ -20,7 +36,7 @@ export const projects = [
     subtitle: "Discover-Ecommerce: Login and Payments Domain",
     description:
       "The Discover-Ecommerce application is a mobile custom application developed for ANDROID/iPhone/iPad devices. JQM: Discover business would like mobile applications to have rich UI experience similar to native clients. The main purpose of JQM Application Development is to build a hybrid cross platform mobile application and rewrite the current mobile website of Discover with enhanced features. Research and development using jQuery mobile API, CSS3, HTML5, jQuery technologies.",
-    image: "./project-2.gif",
+    image: projectImage[1],
     link: "https://www.discover.com/online-banking/savings-account/",
   },
   {
@@ -28,7 +44,7 @@ export const projects = [
     subtitle: "Coursera- WeatherAPIProject",
     description:
       "The challenge will be to write a webpage that uses API to retrieve weather information from an external source. To do this, you will create the user interface, send the request to the external source using JavaScript, process data received and present the information on your webpage using HTML.In this project, we'll use 7Timer API, which is free of charge and does not require any API keys. Approach : HTML5 webpage created, Bootstrap CSS and external stylesheet used, 7Timer API used to retrieve weather information on selected city and country. Code: Formatting, Commenting used to maintain quality of code. avoided redundancy of code.",
-    image: "./project-6.png",
+    image: projectImage[5],
     link: "https://sulekmk.github.io/WeatherAPIProject/",
   },
 ];

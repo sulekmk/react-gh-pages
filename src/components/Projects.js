@@ -3,6 +3,8 @@ import { CodeIcon } from "@heroicons/react/solid";
 
 import { projects } from "../data";
 
+
+
 export default function Projects() {
   return (
     <section id="projects" className="text-black-400 bg-white-900 body-font">
@@ -17,7 +19,7 @@ export default function Projects() {
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
-          {projects.map((project) => (
+          {projects.map((project,i) => (
             <a
               href={project.link}
               key={project.image}
