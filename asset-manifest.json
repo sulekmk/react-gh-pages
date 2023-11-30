@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-gh-pages-myPortfolio/static/css/main.47c884dd.css",
-    "main.js": "/react-gh-pages-myPortfolio/static/js/main.09604132.js",
+    "main.js": "/react-gh-pages-myPortfolio/static/js/main.42ded40b.js",
     "static/media/project-1.png": "/react-gh-pages-myPortfolio/static/media/project-1.f1a49ecb11c9659aeb15.png",
     "static/media/project-3.gif": "/react-gh-pages-myPortfolio/static/media/project-3.d4673dd26c8663508291.gif",
     "static/media/project-6.png": "/react-gh-pages-myPortfolio/static/media/project-6.63247708c1b38a1815f5.png",
@@ -11,10 +11,10 @@
     "static/media/coding.svg": "/react-gh-pages-myPortfolio/static/media/coding.e270681513605e789727348465bd0a27.svg",
     "index.html": "/react-gh-pages-myPortfolio/index.html",
     "main.47c884dd.css.map": "/react-gh-pages-myPortfolio/static/css/main.47c884dd.css.map",
-    "main.09604132.js.map": "/react-gh-pages-myPortfolio/static/js/main.09604132.js.map"
+    "main.42ded40b.js.map": "/react-gh-pages-myPortfolio/static/js/main.42ded40b.js.map"
   },
   "entrypoints": [
     "static/css/main.47c884dd.css",
-    "static/js/main.09604132.js"
+    "static/js/main.42ded40b.js"
   ]
 }
