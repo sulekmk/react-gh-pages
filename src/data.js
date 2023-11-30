@@ -69,10 +69,10 @@ export const testimonials = [
     company: "Cognizant Technology Solutions Pune, India",
   },
 ];
-export const certifications = [
+export const nodes = 
+   [
   {
     title: "Web Development in React.js: Build a Web App",
-    subtitle: "Coursera - React JS - Build Web App",
     description:
       "Pass data between components using React's state and props. " +
       "Manage data by making asynchronous API calls using React's lifecycle methods. " +
@@ -82,7 +82,6 @@ export const certifications = [
   },
   {
     title: "European Weather Forecast - API Project",
-    subtitle: "Coursera- WeatherAPIProject",
     description:
       "The challenge will be to write a webpage that uses API to retrieve weather information from an external source. To do this, you will create the user interface, send the request to the external source using JavaScript, process data received and present the information on your webpage using HTML.In this project, we'll use 7Timer API, which is free of charge and does not require any API keys. Approach : HTML5 webpage created, Bootstrap CSS and external stylesheet used, 7Timer API used to retrieve weather information on selected city and country. Code: Formatting, Commenting used to maintain quality of code. avoided redundancy of code.",
     image: projectImage[7],
