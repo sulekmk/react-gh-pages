@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/react-gh-pages-myPortfolio/static/css/main.47c884dd.css",
-    "main.js": "/react-gh-pages-myPortfolio/static/js/main.42ded40b.js",
+    "main.js": "/react-gh-pages-myPortfolio/static/js/main.ddc3f818.js",
     "static/media/project-1.png": "/react-gh-pages-myPortfolio/static/media/project-1.f1a49ecb11c9659aeb15.png",
     "static/media/project-3.gif": "/react-gh-pages-myPortfolio/static/media/project-3.d4673dd26c8663508291.gif",
     "static/media/project-6.png": "/react-gh-pages-myPortfolio/static/media/project-6.63247708c1b38a1815f5.png",
     "static/media/project-2.gif": "/react-gh-pages-myPortfolio/static/media/project-2.e64d4c685bdecb71b94c.gif",
     "static/media/project-5.png": "/react-gh-pages-myPortfolio/static/media/project-5.045867d1cb2ef8ea0800.png",
+    "static/media/My_React_App.png": "/react-gh-pages-myPortfolio/static/media/My_React_App.6aed5c77a05bb7f5e9f1.png",
     "static/media/project-4.gif": "/react-gh-pages-myPortfolio/static/media/project-4.950efb17d24ca1c4b87f.gif",
-    "static/media/coding.svg": "/react-gh-pages-myPortfolio/static/media/coding.e270681513605e789727348465bd0a27.svg",
+    "static/media/React_mindmajix.png": "/react-gh-pages-myPortfolio/static/media/React_mindmajix.e1809e6cf92f7a4efff4.png",
+    "static/media/My_photo.jpeg": "/react-gh-pages-myPortfolio/static/media/My_photo.aa66ce509f0fe341b7d4.jpeg",
     "index.html": "/react-gh-pages-myPortfolio/index.html",
     "main.47c884dd.css.map": "/react-gh-pages-myPortfolio/static/css/main.47c884dd.css.map",
-    "main.42ded40b.js.map": "/react-gh-pages-myPortfolio/static/js/main.42ded40b.js.map"
+    "main.ddc3f818.js.map": "/react-gh-pages-myPortfolio/static/js/main.ddc3f818.js.map"
   },
   "entrypoints": [
     "static/css/main.47c884dd.css",
-    "static/js/main.42ded40b.js"
+    "static/js/main.ddc3f818.js"
   ]
 }
