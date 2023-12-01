@@ -109,7 +109,7 @@ export const nodes = [
   {
     title:
       "Alison CPD Certified Course - Diploma in HTML5, CSS3 and JavaScript",
-    link: "#",
+    link: "https://alison.com/user/pdf/1462/2",
   },
   {
     title: "Coursera [Meta] - Introduction to Front-End Development",
