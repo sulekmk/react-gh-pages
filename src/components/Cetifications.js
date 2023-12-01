@@ -11,9 +11,9 @@ export default function Certifications() {
       {
         <div>
           <section id="certifications">
-            <div className="container px-5 py-8 mx-auto">
-              <div className="text-center mb-10">
-                <AcademicCapIcon className="w-10 inline-block mb-4" />
+            <div className="container px-5 py-12 mx-auto">
+              <div className="text-center">
+                <AcademicCapIcon className="w-10 inline-block mt-20" />
                 <h1 className="sm:text-4xl text-3xl font-medium title-font text-black mb-4">
                   Certifications{" "}
                 </h1>

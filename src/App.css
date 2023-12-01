@@ -29,7 +29,7 @@
 .App-link {
   color: #61dafb;
 }
-hr, hr.dashed {
+hr,  hr.dashed {
   border-top: 3px dashed ridge;
   margin-top: 3rem !important;
   margin-bottom: 3rem !important;

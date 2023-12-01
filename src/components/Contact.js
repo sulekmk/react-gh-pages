@@ -27,15 +27,15 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative">
-      <div className="container px-5 mx-auto text-center">
-        <ArrowCircleDownIcon className="w-10 inline-block mb-4" />
-        <h1 className="sm:text-4xl text-3xl font-medium title-font text-black mb-4">
+      >
+      <div className="container px-5 mt-4 mx-auto text-center">
+        <ArrowCircleDownIcon className="w-10 inline-block mt-18" />
+        <h1 className="sm:text-4xl text-3xl font-medium title-font text-black">
           Hire Me{" "}
         </h1>
       </div>
-      <div className="container px-8 py-12 mx-auto flex sm:flex-nowrap flex-wrap lg:px-40">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      <div className="container px-8 py-4 mx-auto flex sm:flex-nowrap flex-wrap lg:px-40">
+        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 py-1 flex items-end justify-start relative">
           <iframe
             width="100%"
             height="100%"
