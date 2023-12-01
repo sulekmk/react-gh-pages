@@ -26,16 +26,19 @@ export default function Navbar() {
             className="inline-flex items-center  border-0 py-1 px-3 focus:outline-none hover:bg-pink-700 rounded text-base mt-4 md:mt-0 hover:text-white text-white">
             Past Work
           </a>
+          <span className="text-black">|</span>
           <a
             href="#skills"
             className="inline-flex items-center  border-0 py-1 px-3 focus:outline-none hover:bg-pink-700 rounded text-base mt-4 md:mt-0 hover:text-white text-white">
             Skills
           </a>
+          <span className="text-black">|</span>
           <a
             href="#testimonials"
             className="inline-flex items-center  border-0 py-1 px-3 focus:outline-none hover:bg-pink-700 rounded text-base mt-4 md:mt-0 hover:text-white text-white">
             Client Testimonials
           </a>
+          <span className="text-black">|</span>
           <a
             href="#certifications"
             className="inline-flex items-center  border-0 py-1 px-3 focus:outline-none hover:bg-pink-700 rounded text-base mt-4 md:mt-0 hover:text-white text-white">
