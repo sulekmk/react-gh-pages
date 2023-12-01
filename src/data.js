@@ -8,6 +8,8 @@ import project5Image from "./project-5.png";
 import project6Image from "./project-6.png";
 import project7Image from "./project-6.png";
 import project8Image from "./project-6.png";
+import React_mindmajix from "./React_mindmajix.png";
+
 
 const projectImage = [];
 
@@ -20,7 +22,6 @@ projectImage.push(project6Image);
 projectImage.push(project7Image);
 projectImage.push(project8Image);
 
-
 export const projects = [
   {
     title: "DAVID CHU'S CHINA BISTRO Restaurant",
@@ -32,9 +33,13 @@ export const projects = [
   },
   {
     title: "CICD System",
-    subtitle: "ARRCUS - CICD SYSTEM",
+    subtitle: "ARRCUS - CICD System",
     description:
-      "The CICD UI can be used for managing assets in an organization along with the users and groups of that organization. A user of this application can add multiple different types of assets and give or take away access to those assets at the group level. Examples of this as well as other use cases will be provided in this document. I have worked on topolody management module",
+      "The CICD UI can be used for managing assets in an organization along with the users and groups of that organization." +
+      " A user of this application can add multiple different types of assets and give or take away access" +
+      " to those assets at the group level. Examples of this as well as other use cases will be provided in this document." +
+      " I have worked on topology management module where i have worked on multiple input sorting and camparison.Also many issues" +
+      " related to React state component management when browsers re-render or reload.",
     image: projectImage[4],
     link: "https://cicd.sjc.arrcus.com",
   },
@@ -42,7 +47,11 @@ export const projects = [
     title: "Discover-Ecommerce",
     subtitle: "Discover-Ecommerce: Login and Payments Domain",
     description:
-      "The Discover-Ecommerce application is a mobile custom application developed for ANDROID/iPhone/iPad devices. JQM: Discover business would like mobile applications to have rich UI experience similar to native clients. The main purpose of JQM Application Development is to build a hybrid cross platform mobile application and rewrite the current mobile website of Discover with enhanced features. Research and development using jQuery mobile API, CSS3, HTML5, jQuery technologies.",
+      "The Discover-Ecommerce application is a mobile custom application developed for ANDROID/iPhone/iPad devices. "+
+      "JQM: Discover business would like mobile applications to have rich UI experience similar to native clients."+
+      " The main purpose of JQM Application Development is to build a hybrid cross platform mobile application and " +
+      "rewrite the current mobile website of Discover with enhanced features." +
+      " Research and development using jQuery mobile API, CSS3, HTML5, jQuery technologies.",
     image: projectImage[1],
     link: "https://www.discover.com/online-banking/savings-account/",
   },
@@ -50,7 +59,11 @@ export const projects = [
     title: "European Weather Forecast - API Project",
     subtitle: "Coursera- WeatherAPIProject",
     description:
-      "The challenge will be to write a webpage that uses API to retrieve weather information from an external source. To do this, you will create the user interface, send the request to the external source using JavaScript, process data received and present the information on your webpage using HTML.In this project, we'll use 7Timer API, which is free of charge and does not require any API keys. Approach : HTML5 webpage created, Bootstrap CSS and external stylesheet used, 7Timer API used to retrieve weather information on selected city and country. Code: Formatting, Commenting used to maintain quality of code. avoided redundancy of code.",
+      "The challenge will be to write a webpage that uses API to retrieve weather information from an external source." +
+      " To do this, you will create the user interface, send the request to the external source using JavaScript, " +
+      "process data received and present the information on your webpage using HTML.In this project.Approach : HTML5 webpage created, Bootstrap CSS and external " +
+      "stylesheet used, 7Timer API used to retrieve weather information on selected city and country. Code: Formatting, " +
+      "Commenting used to maintain quality of code.",
     image: projectImage[5],
     link: "https://sulekmk.github.io/WeatherAPIProject/",
   },
@@ -69,23 +82,42 @@ export const testimonials = [
     company: "Cognizant Technology Solutions Pune, India",
   },
 ];
-export const nodes = 
-   [
+export const nodes = [
   {
-    title: "Web Development in React.js: Build a Web App",
-    description:
-      "Pass data between components using React's state and props. " +
-      "Manage data by making asynchronous API calls using React's lifecycle methods. " +
-      "Implement CSS styling and responsive design in React components.",
-    image: projectImage[6],
-    link: "https://sulekmk.github.io/WeatherAPIProject/",
+    title: "Mindmajix Technologies - React JS",
+    link: { React_mindmajix },
+  },
+
+  {
+    title: "Coursera [Meta] - React Basics",
+    link: "https://www.coursera.org/account/accomplishments/verify/N66J7MM4NW7L",
+  },
+
+  {
+    title: "Coursera [Meta] - Web Development in React.js: Build a Web App",
+    link: "https://www.coursera.org/account/accomplishments/certificate/73PFNZV6NVLU",
   },
   {
-    title: "European Weather Forecast - API Project",
-    description:
-      "The challenge will be to write a webpage that uses API to retrieve weather information from an external source. To do this, you will create the user interface, send the request to the external source using JavaScript, process data received and present the information on your webpage using HTML.In this project, we'll use 7Timer API, which is free of charge and does not require any API keys. Approach : HTML5 webpage created, Bootstrap CSS and external stylesheet used, 7Timer API used to retrieve weather information on selected city and country. Code: Formatting, Commenting used to maintain quality of code. avoided redundancy of code.",
-    image: projectImage[7],
-    link: "https://sulekmk.github.io/WeatherAPIProject/",
+    title: "Coursera [Meta]- Programming of JavaScript",
+    link: "https://www.coursera.org/account/accomplishments/verify/2NJKBL9WE9TS",
+  },
+  {
+    title:
+      "Coursera [Johns Hopkins University] - HTML, CSS, and Javascript for Web Developers",
+    link: "https://www.coursera.org/account/accomplishments/verify/TXB5JLYHXX32",
+  },
+  {
+    title:
+      "Alison CPD Certified Course - Diploma in HTML5, CSS3 and JavaScript",
+    link: "#",
+  },
+  {
+    title: "Coursera [Meta] - Introduction to Front-End Development",
+    link: "https://www.coursera.org/account/accomplishments/verify/TFP848D5AZ64",
+  },
+  {
+    title: "Coursera [Meta] - Introduction to Mobile Development",
+    link: "https://www.coursera.org/account/accomplishments/verify/QU93F488MYRC",
   },
 ];
 

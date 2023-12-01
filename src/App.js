@@ -9,13 +9,23 @@ import Certifications from "./components/Cetifications";
 
 export default function App() {
   return (
-    <main >
+    <main>
       <Navbar />
       <About />
+      <hr class="dashed" />
+
       <Projects />
+      <hr class="dashed" />
+
       <Skills />
+      <hr class="dashed" />
+
       <Testimonials />
-      <Certifications/>
+      <hr class="dashed" />
+
+      <Certifications />
+      <hr class="dashed" />
+
       <Contact />
     </main>
   );

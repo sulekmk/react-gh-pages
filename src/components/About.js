@@ -1,5 +1,5 @@
 import React from "react";
-import codingImage from '../coding.svg';
+import codingImage from '../My_React_App.png';
 
 export default function About() {
     return (
@@ -11,7 +11,7 @@ export default function About() {
               <br className="hidden lg:inline-block" />I love to build amazing
               apps.
             </h1>
-            <p className="mb-8 leading-relaxed">
+            <p className="mb-4 leading-relaxed">
               I have over 10 years of experience in Cross Platform Web
               Applications as lead front end developer.
             </p>
@@ -26,12 +26,12 @@ export default function About() {
             <div className="flex justify-center">
               <a
                 href="#contact"
-                className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                className="inline-flex text-white bg-pink-800 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
                 Work With Me
               </a>
               <a
                 href="#projects"
-                className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                className="ml-4 inline-flex text-white bg-pink-800 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 hover:text-white rounded text-lg">
                 See My Past Work
               </a>
             </div>

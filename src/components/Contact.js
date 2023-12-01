@@ -45,7 +45,7 @@ export default function Contact() {
             src="https://www.google.com/maps/embed/v1/place?q=1873+Masuda+Landing,+San+Jose,+CA,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2 bg-gray-900 relative rounded-lg">
+        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2 bg-pink-800 relative rounded-lg">
           <form
             netlify
             name="contact"
