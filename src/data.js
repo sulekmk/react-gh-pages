@@ -10,7 +10,6 @@ import project7Image from "./project-6.png";
 import project8Image from "./project-6.png";
 import React_mindmajix from "./React_mindmajix.png";
 
-
 const projectImage = [];
 
 projectImage.push(project1Image);
@@ -47,8 +46,8 @@ export const projects = [
     title: "Discover-Ecommerce",
     subtitle: "Discover-Ecommerce: Login and Payments Domain",
     description:
-      "The Discover-Ecommerce application is a mobile custom application developed for ANDROID/iPhone/iPad devices. "+
-      "JQM: Discover business would like mobile applications to have rich UI experience similar to native clients."+
+      "The Discover-Ecommerce application is a mobile custom application developed for ANDROID/iPhone/iPad devices. " +
+      "JQM: Discover business would like mobile applications to have rich UI experience similar to native clients." +
       " The main purpose of JQM Application Development is to build a hybrid cross platform mobile application and " +
       "rewrite the current mobile website of Discover with enhanced features." +
       " Research and development using jQuery mobile API, CSS3, HTML5, jQuery technologies.",
@@ -70,14 +69,28 @@ export const projects = [
 ];
 
 export const testimonials = [
+  // {
+  //   quote: "Good learning ability and contributing to the CICD Application",
+  //   name: "Amaresan Balakrishnan",
+  //   company: "Arrcus Inc. San Jose, California, USA",
+  // },
   {
-    quote: "Good learning ability and contributing to the CICD Application",
-    name: "Amaresan Balakrishnan",
-    company: "Arrcus Inc. San Jose, California, USA",
-  },
-  {
-    quote:
-      "Sulek has been responsive and quick to learn the complex situation and with a quick turnaround provide the required solution in place. Works within the constraints in the account team with great flexibility with the end result in mind. 1.Possesses outstanding technical skills and is extremely flexible in meeting project requirements.2.Spearheaded Architectural design for a new complex development project which was appreciated by Client Technology team also. 3.Maintained thorough supervision of the project design and development to ensure high-class deliverable, Project went through UAT without any major defect much to the surprise of business team. 4.Apart from ensuring high quality deliverable, made contributions to proposals by designing the high-level technical Solution/Architecture and also extended support for technical estimation. 5.Helped account team through mentoring of junior team members on the technology advancements. 6.Communicates effectively and is confident. Her dedication and sense of ownership is excellent!",
+    quote1:
+      "Sulek has been responsive and quick to learn the complex situation and with a quick turnaround " +
+      "provide the required solution in place. Works within the constraints in the account team with great flexibility" +
+      "with the end result in mind. ",
+    quote2:
+      "1. Possesses outstanding technical skills and is extremely flexible in meeting project requirements.",
+    quote3: " 2. Spearheaded Architectural design for a new complex development project which was appreciated by Client " +
+      "Technology team also.",
+    quote4: " 3. Maintained thorough supervision of the project design and development to ensure " +
+      "high- class deliverable, Project went through UAT without any major defect much to the surprise of business team.",
+    quote5: " 4. Apart from ensuring high quality deliverable, made contributions to proposals by designing the " +
+      "high - level technical Solution / Architecture and also extended support for technical estimation. ",
+    quote6: " 5. Helped account team through mentoring of junior team members on the technology advancements. ",
+    quote7:
+      " 6. Communicates effectively and is confident.Her dedication and sense of ownership is excellent!",
+
     name: "Rahul Borade",
     company: "Cognizant Technology Solutions Pune, India",
   },

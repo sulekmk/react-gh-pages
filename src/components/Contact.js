@@ -28,10 +28,10 @@ export default function Contact() {
     <section
       id="contact"
       >
-      <div className="container px-5 mt-4 mx-auto text-center">
+      <div className="container px-5 mt-4 mb-4 mx-auto text-center">
         <ArrowCircleDownIcon className="w-10 inline-block mt-18" />
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-black">
-          Hire Me{" "}
+          Contact{" "}
         </h1>
       </div>
       <div className="container px-8 py-4 mx-auto flex sm:flex-nowrap flex-wrap lg:px-40">

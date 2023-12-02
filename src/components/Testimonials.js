@@ -1,3 +1,4 @@
+/** @format */
 
 import React from "react";
 import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
@@ -16,9 +17,28 @@ export default function Testimonials() {
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-pink-800  p-8 rounded">
                 <TerminalIcon className="block w-8 text-yellow-500 mb-4" />
-                <p className="leading-relaxed mb-6 text-white">
-                  {testimonial.quote}
+                <p className="leading-relaxed mb-6 text-white text-left">
+                  {testimonial.quote1}
                 </p>
+                <p className="leading-relaxed mb-6 text-white text-left">
+                  {testimonial.quote2}
+                </p>
+                <p className="leading-relaxed mb-6 text-white text-left">
+                  {testimonial.quote3}
+                </p>
+                <p className="leading-relaxed mb-6 text-white text-left">
+                  {testimonial.quote4}
+                </p>
+                <p className="leading-relaxed mb-6 text-white text-left">
+                  {testimonial.quote5}
+                </p>
+                <p className="leading-relaxed mb-6 text-white text-left">
+                  {testimonial.quote6}
+                </p>
+                <p className="leading-relaxed mb-6 text-white text-left">
+                  {testimonial.quote7}
+                </p>
+
                 <div className="inline-flex items-center">
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-white">
